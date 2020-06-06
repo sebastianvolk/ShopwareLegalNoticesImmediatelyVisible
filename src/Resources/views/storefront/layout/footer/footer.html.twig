@@ -1,0 +1,8 @@
+{% sw_extends '@Storefront/storefront/layout/footer/footer.html.twig' %}
+
+{% block layout_footer_navigation_columns %}
+    {{ parent() }}
+    <script>
+        ShopwareLegalNoticesImmediatelyVisible.openCollapsedFooter("{{ shopware.config.ShopwareLegalNoticesImmediatelyVisible.config.footerLinkLabel }}");
+    </script>
+{% endblock %}

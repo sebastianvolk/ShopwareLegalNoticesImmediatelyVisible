@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Basic Configuration</title>
+        <title lang="de-DE">Grundeinstellungen</title>
+        <input-field type="text">
+            <name>footerLinkLabel</name>
+            <label>Footer link label that is being searched for</label>
+            <label lang="de-DE">Fußzeilen-Link-Bezeichnung, nach der gesucht wird</label>
+            <placeholder>e.g. Imprint</placeholder>
+            <placeholder lang="de-DE">z.B. Impressum</placeholder>
+            <helpText>This plugin searches for this link name and opens the corresponding collapsed footer.</helpText>
+            <helpText lang="de-DE">Dieses Plugin sucht nach diesem Linknamen und öffnet die entsprechende zusammengeklappte Fußzeile.</helpText>
+        </input-field>
+    </card>
+</config>

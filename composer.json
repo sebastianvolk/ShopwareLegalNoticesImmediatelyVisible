@@ -1,18 +1,27 @@
 {
-  "name": "swag/plugin-skeleton",
-  "description": "Skeleton plugin",
+  "name": "volk/ShopwareLegalNoticesImmediatelyVisible",
+  "description": "Shopware Legal Notices Immediately Visible",
+  "version": "0.1.0",
   "type": "shopware-platform-plugin",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Sebastian Volk"
+    }
+  ],
+  "require": {
+    "shopware/core": "^6.2.0"
+  },
   "autoload": {
     "psr-4": {
-      "ShopwareLegalNoticesImmediatelyVisible\\": "src/"
+      "ShopwareMailtrainConnector\\": "src/"
     }
   },
   "extra": {
     "shopware-plugin-class": "ShopwareLegalNoticesImmediatelyVisible\\ShopwareLegalNoticesImmediatelyVisible",
     "label": {
-      "de-DE": "Skeleton plugin",
-      "en-GB": "Skeleton plugin"
+      "de-DE": "Shopware Rechtshinweise sofort sichtbar",
+      "en-GB": "Shopware Legal Notices Immediately Visible"
     }
   }
 }
