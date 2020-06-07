@@ -1,5 +1,9 @@
 # Shopware Legal Notices Immediately Visible
 
+If you like my work, please consider buying me a coffee.
+
+<a href="https://www.buymeacoffee.com/sebastianvolk" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" width="217" heigth="51" ></a>
+
 This plugin for Shopware 6 automatically extends the footer section on mobile devices, where legal notices, e.g. the imprint, are displayed.
 
 ![footer-expanded](https://user-images.githubusercontent.com/45712972/83969331-b7965200-a8cf-11ea-8154-647373d93c45.PNG)
