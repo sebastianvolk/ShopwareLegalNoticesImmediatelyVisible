@@ -1,4 +1,4 @@
-console.log("TESTING...");
+console.log('TESTING...');
 /*
 window.shopwareLegalNoticesImmediatelyVisible = (function () {
   "use strict";

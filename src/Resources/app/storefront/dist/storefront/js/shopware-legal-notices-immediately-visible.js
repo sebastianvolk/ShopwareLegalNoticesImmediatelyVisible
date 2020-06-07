@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["shopware-legal-notices-immediately-visible"],{"6Q3w":function(e,o){console.log("TESTING...")}},[["6Q3w","runtime"]]]);
