@@ -9,10 +9,6 @@ class ShopwareLegalNoticesImmediatelyVisible extends Plugin
 {
     public function uninstall(UninstallContext $context): void
     {
-        if ($context->keepUserData()) {
-            parent::uninstall($context);
-
-            return;
-        }
+        parent::uninstall($context);
     }
 }
