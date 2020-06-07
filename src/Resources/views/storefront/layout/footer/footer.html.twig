@@ -3,6 +3,13 @@
 {% block layout_footer_navigation_columns %}
     {{ parent() }}
     <script>
-        ShopwareLegalNoticesImmediatelyVisible.openCollapsedFooter("{{ shopware.config.ShopwareLegalNoticesImmediatelyVisible.config.footerLinkLabel }}");
+    const openCollapsedFooter = function() {
+        if (typeof shopwareLegalNoticesImmediatelyVisible !== "undefined"){
+            shopwareLegalNoticesImmediatelyVisible.openCollapsedFooter("{{ shopware.config.ShopwareLegalNoticesImmediatelyVisible.config.footerLinkLabel }}");
+        } else {
+            setTimeout(openCollapsedFooter, 250);
+        }
+    };
+    openCollapsedFooter();
     </script>
 {% endblock %}
