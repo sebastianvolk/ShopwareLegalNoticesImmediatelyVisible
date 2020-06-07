@@ -1,1 +1,1 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["shopware-legal-notices-immediately-visible"],{"6Q3w":function(e,o){console.log("TESTING...")}},[["6Q3w","runtime"]]]);
+(window.webpackJsonp=window.webpackJsonp||[]).push([["shopware-legal-notices-immediately-visible"],{"6Q3w":function(e,o){window.shopwareLegalNoticesImmediatelyVisible=function(){"use strict";return{openCollapsedFooter:function(e){console.log("Hello World!",e)}}}()}},[["6Q3w","runtime"]]]);
