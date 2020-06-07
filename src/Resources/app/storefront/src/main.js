@@ -1,5 +1,3 @@
-console.log('TESTING...');
-/*
 window.shopwareLegalNoticesImmediatelyVisible = (function () {
   "use strict";
   const _openCollapsedFooter = (footerLinkLabel) => {
@@ -9,4 +7,3 @@ window.shopwareLegalNoticesImmediatelyVisible = (function () {
     openCollapsedFooter: _openCollapsedFooter,
   };
 })();
-*/

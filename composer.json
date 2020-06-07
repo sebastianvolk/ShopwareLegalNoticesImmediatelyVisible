@@ -1,7 +1,7 @@
 {
   "name": "volk/shopware-legal-notices-immediately-visible",
   "description": "Shopware Legal Notices Immediately Visible",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "authors": [
